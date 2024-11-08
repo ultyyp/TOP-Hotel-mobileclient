@@ -1,0 +1,89 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Gradle files
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.properties
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+gradle.properties
+gradlew
+gradlew.bat
+
+# Local configuration file (SDK location, etc)
+local.properties
+
+# Android Studio specific files
+.idea/
+*.iml
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.stats.xml
+.idea/**/dictionaries
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/gradle.xml
+.idea/misc.xml
+
+# Keystore files (for signing APKs)
+*.jks
+*.keystore
+
+# Log and crash files
+*.log
+
+# Android build files
+*.apk
+*.ap_
+output.json
+captures/
+
+# Temporary files
+.tmp/
+*.temp
+*.tmp
+*.swp
+
+# Dependency directories
+.idea/libraries
+.idea/modules.xml
+
+# Files for the Android emulator
+*.hprof
+*.class
+
+# Miscellaneous files
+.DS_Store
+*.orig
+
+# Generated files
+**/generated/
+
+# Coverage files
+coverage/
+
+# IntelliJ IDEA
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.stats.xml
+.idea/dictionaries
+.idea/**/usage.statistics.xml
+*.iws
+
+# End of .gitignore
+

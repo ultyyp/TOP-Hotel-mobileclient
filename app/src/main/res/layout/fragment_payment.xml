@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- First Name -->
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Last Name -->
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Check-in Date -->
+    <EditText
+        android:id="@+id/etCheckInDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Check-in Date (yyyy-MM-dd)"
+        android:inputType="date"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Check-out Date -->
+    <EditText
+        android:id="@+id/etCheckOutDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Check-out Date (yyyy-MM-dd)"
+        android:inputType="date"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Number of Adults -->
+    <EditText
+        android:id="@+id/etNumAdults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Adults"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Number of Children -->
+    <EditText
+        android:id="@+id/etNumChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Children (Optional)"
+        android:inputType="number"
+        android:layout_marginBottom="8dp"
+        android:enabled="false" /> <!-- Non-editable -->
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Booking"
+        android:enabled="true" /> <!-- Always enabled -->
+
+    <!-- Total Price -->
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price: $0"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
